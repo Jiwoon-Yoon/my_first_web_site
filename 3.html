@@ -3,13 +3,25 @@
 <head>
 <title>여행일기-일본 간사이 여행</title>
 <!-- <meta charset="utf-8"> -->
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script src="colors.js"></script>
 </head>
 <body>
     <h1><a href="index.html">여행 일기</a></h1>
+    <input id="night-day" type="button" value="night" onclick="
+    nigtDayHandler(this);
+    ">
+<div id="grid">
 <ol>
     <li><a href="1.html">여수 여행</a></li>
     <li><a href="2.html">부산 여행</a></li>
     <li><a href="3.html">오사카/나라/교토 여행</a></li>
 </ol>
+<div id="article">
 <h2>오사카/나라/교토 여행</h2>
 <p style="margin-bottom:25px;">2023년 2월 23일~27일 <strong>엄마와 4박5일 뚜벅이 일본여행</strong></p>
+</div>
+</div>
+</body>
+</html>

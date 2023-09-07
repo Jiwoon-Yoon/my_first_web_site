@@ -3,15 +3,32 @@
 <head>
 <title>여행일기-여수여행</title>
 <!-- <meta charset="utf-8"> -->
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script src="colors.js"></script>
 </head>
 <body>
     <h1><a href="index.html">여행 일기</a></h1>
+    <input id="night-day" type="button" value="night" onclick="
+    nigtDayHandler(this);
+    ">
+<div id="grid">
 <ol>
-    <li><a href="1.html">여수 여행</a></li>
-    <li><a href="2.html">부산 여행</a></li>
+    <li><a href="1.html" class="saw" id="active"> 여수 여행</a></li>
+    <li><a href="2.html" class="saw "> 부산 여행</a> </li>
     <li><a href="3.html">오사카/나라/교토 여행</a></li>
 </ol>
+<!--
+    <h1><a href="index.html"><font color="red">여행 일기</font></a></h1>
+<ol>
+    <li><a href="1.html"><font color="red">여수 여행</font></a></li>
+    <li><a href="2.html"><font color="red">부산 여행</font></a></li>
+    <li><a href="3.html"><font color="red">오사카/나라/교토 여행</font></a></li>
+</ol>
+-->
+
 <!-- ol:ordered list     ul:unorderd list -->
+<div id="article">
 <h2>여수 여행</h2>
 <p style="margin-bottom:25px;">2022년 2월 12일~13일 <strong>나홀로 1박2일 뚜벅이 <u>여수여행</u></strong></p>
 <br>오전 8시 40분 ktx를 타고 출발해 11시 50분경 여수EXPO역 도착! <br>
@@ -29,5 +46,7 @@
     <br> 비록 그 이후에 멀미때문에 하늘에서, 그리고 내린 후 땅에서도 많이 고생을 해서 다시는 안할 것 같지만, 인생을 살면서 한번은 해봐야겠다고 생각했던만큼 후회는 없는 경험이었다ㅎㅎ
     <br> 워낙 내가 멀미가 심해서 그렇고 같이 타신 분들은 아주 재밌게 놀다 가셨다. 평소 놀이기구를 탈 때 멀미를 하지 않는 편이시라면 정말 즐겁게 패러글라이딩을 즐길 수 있을 것 같다.
 </p>
+</div>
+</div>
 </body>
 </html>
